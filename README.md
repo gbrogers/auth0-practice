@@ -68,3 +68,10 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+make.env file and put:
+REACT_APP_AUTH0_DOMAIN= dev-iidv9l5a.us.auth0.com
+REACT_APP_AUTH0_CLIENT_ID= n8QPDmH2uVpDLNvebQqDzchj0ytjRfsz
+
+install react Auth0:
+$ npm i @auth0/auth0-react
